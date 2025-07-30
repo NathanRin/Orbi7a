@@ -7,24 +7,24 @@ const zapatillas = {
     img: "img/knu 1.jpeg",
     precio: 55000,
     descripcion: "Zapatilla Vans KNU Skool: estilo retro con máxima comodidad.",
-    talles: [34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44]
+    talles: [36, 37, 38, 39, 40, 41, 42, 43, 44]
   },
   "Adidas Campus": {
     img: "img/Campus.jpeg",
     precio: 45000,
     descripcion: "Adidas Campus: clásicas y versátiles para cualquier ocasión.",
-    talles: [34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44]
+    talles: [34, 35, 36, 37, 38, 39]
   },
   "Nike Mocha": {
     img: "img/Mocha.jpeg",
     precio: 65000,
     descripcion: "Nike Mocha: diseño icónico y colores únicos.",
-    talles: [34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44]
+    talles: [39, 40, 41, 42, 43, 44]
   }
 };
 
 // --------------------
-// GESTIÓN DEL CARRITO (VERSIÓN CORREGIDA)
+// GESTIÓN DEL CARRITO 
 // --------------------
 let cart = JSON.parse(localStorage.getItem("carrito")) || [];
 
