@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Compra Exitosa - Órbita</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+  <style>
+    .whatsapp-btn {
+      background-color: #25D366;
+      color: white;
+      padding: 12px 20px;
+      border-radius: 5px;
+      display: inline-flex;
+      align-items: center;
+      margin-top: 15px;
+      text-decoration: none;
+      font-weight: bold;
+      transition: background-color 0.3s;
+    }
+    .whatsapp-btn:hover {
+      background-color: #128C7E;
+    }
+    .whatsapp-btn i {
+      margin-right: 10px;
+      font-size: 1.2em;
+    }
+    .payment-steps {
+      background: rgba(255, 255, 255, 0.1);
+      padding: 20px;
+      border-radius: 10px;
+      margin: 20px 0;
+    }
+    .payment-steps ol {
+      padding-left: 20px;
+    }
+    .payment-steps li {
+      margin-bottom: 10px;
+    }
+  </style>
+</head>
+
+<body class="success">
+  <!-- Fondo de estrellas -->
+  <div class="stars" id="stars"></div>
+  
+  <!-- Barra de navegación -->
+  <nav class="navbar">
+    <div class="logo">
+      <img src="img/galaxy.png" alt="Órbita logo" class="logo-img">
+    </div>
+    <ul class="nav-links">
+      <li><a href="index.html">Inicio</a></li>
+      <li><a href="index.html#catalog">Catálogo</a></li>
+      <li><a href="carrito.html">Carrito <span id="cart-count">0</span></a></li>
+    </ul>
+  </nav>
+
+  <!-- Contenido principal -->
+  <div class="wrapper">
+    <section class="success-section">
+      <h1><i class="fas fa-check-circle"></i> ¡Reserva Exitosa!</h1>
+      <p>Tu pedido ha sido registrado correctamente. Para completar la compra, sigue estos pasos:</p>
+      <div id="resumen-compra"></div>
+      <a href="index.html" class="btn">Volver a la tienda</a>
+    </section>
+  </div>
+
+  <!-- Pie de página -->
+  <footer class="footer">
+    <div class="footer-content">
+      <div class="footer-section">
+        <h4>Órbita</h4>
+        <p>Tu destino para productos de calidad con un toque estelar. Explorando nuevas fronteras en moda y estilo.</p>
+        <div class="social-icons">
+          <a href="https://www.facebook.com/marketplace/profile/100006414270354/"><i class="fab fa-facebook-f"></i></a>
+          <a href="https://www.instagram.com/orbi7a/"><i class="fab fa-instagram"></i></a>
+        </div>
+      </div>
+    
+      <div class="footer-section">
+        <h4>Contacto</h4>
+        <a href="tel:+2494625738"><i class="fas fa-phone"></i> +5492494625738</a>
+        <!-- <a href="mailto:info@orbita.com"><i class="fas fa-envelope"></i> info@orbita.com</a> -->
+      </div>
+    </div>
+    
+    <div class="footer-bottom">
+      <p>&copy; 2023 Órbita. Todos los derechos reservados.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
